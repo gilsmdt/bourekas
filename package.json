@@ -15,7 +15,8 @@
   "author": "Gil_S",
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "gridstack": "^7.2.3"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.5",

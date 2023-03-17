@@ -4,9 +4,19 @@
     <meta charset="UTF-8" />
     <title>Hello World!</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="node_modules/gridstack/dist/gridstack-h5.js"></script>
+    <link href="node_modules/gridstack/dist/gridstack.min.css" rel="stylesheet" />
+    <style type="text/css">
+      .grid-stack {
+        background: #fafad2;
+      }
+      .grid-stack-item-content {
+        background-color: #18bc9c;
+      }
+    </style>
+    <script type="text/javascript" src="init.js"></script>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <div class="grid-stack"></div>
   </body>
 </html>
